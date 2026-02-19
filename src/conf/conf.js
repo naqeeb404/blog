@@ -1,6 +1,6 @@
 const conf = {
 
-    appWriteUrl : String(import.meta.env.VITE_APP_WRITE_URL),
+    appWriteUrl : String(import.meta.env.VITE_APPWRITE_URL),
     appWriteProjectID : String(import.meta.env.VITE_APPWRITE_PROJECT_ID),
     appWriteDatabaseID : String(import.meta.env.VITE_APPWRITE_DATABASE_ID),
     appWriteTableID : String(import.meta.env.VITE_APPWRITE_TABLE_ID),
